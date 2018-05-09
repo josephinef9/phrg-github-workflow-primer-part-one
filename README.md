@@ -77,7 +77,7 @@ We won't be exploring Markdown in great detail. But it is important to know abou
 
 ![Copy Remote Url](img/copy-remote.png?raw=true "Copy Remote Url")
 
-* In your shell session, add the remote with `git remote add origin <paste-remote-url-here>`. The remote URL will look something like "git@github.com:<your-github-handle>/<name-of-project>.git"
+* In your shell session, add the remote with `git remote add origin <paste-remote-url-here>`. The remote URL will look something like `git@github.com:<your-github-handle>/<name-of-project>.git`
 * Finally push up the files with `git push -u origin master`
 
 ### Switch drivers
