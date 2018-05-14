@@ -36,11 +36,11 @@ You'll notice that this text looks different on Github than it does on Learn. Th
 
 So why is this text classified as a markup language? Let's pull back the final layer to find out. Click on the README.md file itself, listed in the file system towards this top of the page.
 
-![Readme Link](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/img/clone-project.png?raw=true "Readme Link")
+![Readme Link](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/clone-project.png?raw=true "Readme Link")
 
 And now click on the "Raw" button, in the top right corner of the document.
 
-![Raw Button](img/raw-button.png?raw=true "Raw Button")
+![Raw Button](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/raw-button.png?raw=true "Raw Button")
 
 What you see now is Markdown code. No where near as fancy as what you see on Learn, but really its just some text with special characters.
 
@@ -57,11 +57,11 @@ We won't be exploring Markdown in great detail. But it is important to know abou
 * In a browser, navigate to your github profile page
 * In the top right corner, click on the "+" icon and select "New repository"
 
-![Create New Repository](img/create-new-repo.png?raw=true "Create New Repository")
+![Create New Repository](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/create-new-repo.png?raw=true "Create New Repository")
 
 * In the next screen, enter the name of your new project under "Repository Name"
 
-![Name New Project](img/name-new-repo.png?raw=true "Name New Project")
+![Name New Project](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/name-new-repo.png?raw=true "Name New Project")
 
 * Click the green "Create Repository" button at the bottom of the form
 * Now take a long look at the next screen Github has presented to you. We are going to create a new repository on the command line
@@ -75,7 +75,7 @@ We won't be exploring Markdown in great detail. But it is important to know abou
 * Commit your work with `git commit -m "First commit"`
 * Go back to your browser and use the clipboard icon to copy your SSH remote URL. Make sure that SSH is selected. This is where the clipboard icon is:
 
-![Copy Remote Url](img/copy-remote.png?raw=true "Copy Remote Url")
+![Copy Remote Url](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/copy-remote.png?raw=true "Copy Remote Url")
 
 * In your shell session, add the remote with `git remote add origin <paste-remote-url-here>`. The remote URL will look something like `git@github.com:<your-github-handle>/<name-of-project>.git`
 * Finally push up the files with `git push -u origin master`
@@ -91,13 +91,13 @@ Complete the next set of instructions on the other pair member's laptop.
 * In a browser, navigate to your partner's profile page and locate the new repository you just created
 * When on the repo page, locate and click the "Fork" button in the top right corner:
 
-![Fork Button](img/fork-button.png?raw=true "Fork Button")
+![Fork Button](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/fork-button.png?raw=true "Fork Button")
 
 This will redirect you to a copy of the codebase in your github account.
 
 * Next, locate the green "clone or download" button towards the top right corner. Click on this button and verify that it says "Clone with SSH". If not, switch it to ssh. Then click on the clipboard icon to copy the remote url:
 
-![Copy Clone Url](img/clone-project.png?raw=true "Copy Clone Url")
+![Copy Clone Url](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/clone-project.png?raw=true "Copy Clone Url")
 
 * Return to your shell session and clone down the project with `git clone <paste-remote-url-here>`
 * `cd` into the new project folder
@@ -115,12 +115,12 @@ Now you will create a branch using `git`. Once you have completed your set of co
 
 Back to the browser! If all went well, the project page should now be displaying a yellow-tinted prompt with a green button that says "Compare & pull request". Press that green button.
 
-![Pull Request Prompt](img/yellow-tinted-pr-prompt.png?raw=true "Pull Request Prompt")
+![Pull Request Prompt](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/yellow-tinted-pr-prompt.png?raw=true "Pull Request Prompt")
 
 This will open up a screen that allows you to give your Pull Request (PR) a title and description. Also, you can scroll down to the bottom and see the code additions you have made. Make the PR title "Add Developer Names" if it is not already and give it a description of "My first PR description.". Find the green "Create pull request" button and click it.
 
-![Compare Changes View](img/compare-changes.png?raw=true "Compare Changes View")
+![Compare Changes View](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/compare-changes.png?raw=true "Compare Changes View")
 
 Congrats! You both have not only created your first github repo, you have also created your first PR on that repo. There is only one last step. The original driver can merge the Pull Request into their master branch with one more green button click.
 
-![Pull Request View](img/pull-request.png?raw=true "Pull Request View")
+![Pull Request View](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/pull-request.png?raw=true "Pull Request View")
