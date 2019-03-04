@@ -110,7 +110,7 @@ This will redirect you to a copy of the codebase in your github account.
 Now you will create a branch using `git`. Once you have completed your set of code changes, you will add and commit the work, then create a Pull Request (PR) for your partner to merge.
 
 * Create a git branch off the main `master` branch. Lets name the branch "add-developer-names". Notice that the branch name contains no whitespace. Our command line can not process a name with whitespace because it will think you are passing it a new argument. To create our new branch, run `git checkout -b add-developer-names`
-* Navigate to the `README.md` and add an h1 markdown element with the title "Nitro Developer Bootcamp Students" (check out the Markdown links above to see what this looks like)
+* Navigate to the `README.md` and add an h1 markdown element with the title "Power Code Academy Students" (check out the Markdown links above to see what this looks like)
 * Next, add h2 markdown elements for each of the class participants. Each element should be titled with the first and last name of a Student Developer
 * Use `git status` to see that you have one modified file, the `README.md` (it appears red)
 * Use `git diff` to see any unstaged changes you've made
