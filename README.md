@@ -2,14 +2,14 @@
 
 ## What is a Pairing Project?
 
-[Pair programming](http://wiki.c2.com/?PairProgramming) is an [Extreme Programming Practice](http://wiki.c2.com/?ExtremeProgrammingPractice). Two developers actively collaborate on the same development effort. Traditionally pairing takes place at the same workstation with the pair sitting together. Developers can pair on individual computers when screen sharing is used. Pairing can even be remote. What matters is the pair is communicating, seeing the same screen, as they work.
+[Pair programming](http://wiki.c2.com/?PairProgramming) is an [Extreme Programming Practice](http://wiki.c2.com/?ExtremeProgrammingPractice). Two developers actively collaborate on the same development effort. Traditionally pairing takes place at the same workstation with the pair sitting together. Developers can pair on individual computers when screen sharing is used, making it possible to pair remotely. What matters is that the pair is communicating and seeing the same screen as they work.
 
 In a pairing session the pairing team contribute complimentary efforts while collaborating. The members of the pair will have separate roles, and will likely switch roles over the course of the pairing session. Each member performs the action the other is not currently doing.
 
 For example:
-The developer currently driving will write code. The other will read code; looking for errors, consider the solution, and offer suggestions.
+A developer currently driving will write code while the other will read code. The reader will look for errors, consider the solution, and offer suggestions.
 
-In the above example the developer is refered to as the "driver" and the second is the "navigator".
+In this example, the developer is refered to as the "driver" and the second is the "navigator".
 
 ## The Pairing Plan
 
@@ -22,7 +22,7 @@ Let's begin!
 ## Objectives
 
 1. Reinforce basic bash commands like `cd`, `mkdir` and `touch`
-1. Reinforce basic git commands like `init`, `add`, `commit`, and `push`
+1. Reinforce basic git commands like `init`, `add`, `commit`, `push`, `status` and `diff`
 1. Learn how to create and merge Pull Requests on Github
 1. Introduce markup language called `Markdown`
 
@@ -71,8 +71,11 @@ We won't be exploring Markdown in great detail. But it is important to know abou
 ### Time to send this up to Github!
 
 * Instantialize the new repository with `git init`
+* Use `git status` to see that you have one untracked file, the `README.md` (it appears red)
 * Add your blank `README.md` file with `git add README.md`
+* Use `git status` again to see that the `README.md` is staged (it now appears green)
 * Commit your work with `git commit -m "First commit"`
+* Use `git status` again to see that you have nothing untracked nor staged (no files appear)
 * Go back to your browser and use the clipboard icon to copy your SSH remote URL. Make sure that SSH is selected. This is where the clipboard icon is:
 
 ![Copy Remote Url](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/copy-remote.png?raw=true "Copy Remote Url")
@@ -107,10 +110,15 @@ This will redirect you to a copy of the codebase in your github account.
 Now you will create a branch using `git`. Once you have completed your set of code changes, you will add and commit the work, then create a Pull Request (PR) for your partner to merge.
 
 * Create a git branch off the main `master` branch. Lets name the branch "add-developer-names". Notice that the branch name contains no whitespace. Our command line can not process a name with whitespace because it will think you are passing it a new argument. To create our new branch, run `git checkout -b add-developer-names`
-* Navigate to the `README.md` and add an h1 markdown element with the title "Nitro Developer Bootcamp Students" (check out the Markdown links above to see what this looks like)
+* Navigate to the `README.md` and add an h1 markdown element with the title "Power Code Academy Students" (check out the Markdown links above to see what this looks like)
 * Next, add h2 markdown elements for each of the class participants. Each element should be titled with the first and last name of a Student Developer
+* Use `git status` to see that you have one modified file, the `README.md` (it appears red)
+* Use `git diff` to see any unstaged changes you've made
 * Stage your changes to the `README.md` with `git add README.md`
+* Use `git status` to see that you have staged a file change (it appears green)
+* Use `git diff` to see any unstaged changes you've made (nothing should appear)
 * Commit your changes with `git commit -m "Add developer names to README file"`
+* Use `git status` again to see that you have no untracked nor staged files (nothing should appear)
 * Push your commit to your branch with `git push origin add-developer-names`
 
 Back to the browser! If all went well, the project page should now be displaying a yellow-tinted prompt with a green button that says "Compare & pull request". Press that green button.
