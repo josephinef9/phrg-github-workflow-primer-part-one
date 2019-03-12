@@ -36,7 +36,7 @@ You'll notice that this text looks different on Github than it does on Learn. Th
 
 So why is this text classified as a markup language? Let's pull back the final layer to find out. Click on the README.md file itself, listed in the file system towards this top of the page.
 
-![Readme Link](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/clone-project.png?raw=true "Readme Link")
+![Readme Link](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-one/master/readme-link.png?raw=true "Readme Link")
 
 And now click on the "Raw" button, in the top right corner of the document.
 
