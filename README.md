@@ -52,7 +52,7 @@ We won't be exploring Markdown in great detail. But it is important to know abou
 * Verify the location on your laptop's file system with `pwd`, which stands for "print working directory"
 * Create a new directory called "pairing-projects" with the `mkdir` command
 * `cd` into `pairing-projects`
-* Create another new directory that will match the name of this project. Let's name it "<your_first_name>_and_<your_pair's_first_name>_first_git_project". For example, if Garett Arrowood and Bryan Reed were creating this project together, and Garett was driving, he would run this command: `mkdir garett_and_bryan_first_git_project`
+* Create another new directory that will match the name of this project. Let's name it `<your_first_name>_and_<your_pair's_first_name>_first_git_project`. For example, if Garett Arrowood and Bryan Reed were creating this project together, and Garett was driving, he would run this command: `mkdir garett_and_bryan_first_git_project`
 * `cd` into the new directory
 * In a browser, navigate to your github profile page
 * In the top right corner, click on the "+" icon and select "New repository"
